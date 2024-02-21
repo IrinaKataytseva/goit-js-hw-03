@@ -18,6 +18,8 @@
 // console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); // "Nunc sed turpis..."
 // console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); // "Nunc sed turpis a felis in nunc fringilla"
 
-function makeArray() {
-  
+function makeArray(firstArray, secondArray, maxLength) {
+  const result = firstArray.concat(secondArray);
+
+
 }
